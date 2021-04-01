@@ -1,5 +1,6 @@
 /*
     COLOR: #3498db
+    DARKER COLOR: #2487c9
 */
 
 /*-------------------------------------------------------
@@ -33,6 +34,24 @@ html {
     padding: 80px 0;
 }
 
+/*-----------------------PARAGRAPHS-----------------------*/
+
+.other-long-copy,
+.long-copy {
+    font-size: 125%;
+}
+
+.other-long-copy {
+    text-align: center;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;   
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
 /*-----------------------HEADINGS-----------------------*/
 
 h1,
@@ -44,7 +63,7 @@ h3 {
 }
 
 h1 {
-    margin-top: 0;
+    margin-top: 43px;
     margin-bottom: 20px;
     color: #3498db;
     font-size: 240%;
@@ -60,30 +79,115 @@ h2{
 }
 
 h3{
-    font-size: 110%;
+    font-size: 150%;
+    margin-top: 60px;
+    font-weight: 400;
     margin-bottom: 15px;
+    margin-right: 10%;
+    text-align: center;
 }
 
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #3498db;
     content: " ";
     width: 100px;
     margin: 0 auto;
     margin-top: 23px;
 }
 
+.extra-h1 {
+    margin-right: 5%;
+}
+
+/*-----------------------BUTTONS-----------------------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-top: 30px;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #2487c9;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #2487c9;
+    border: 1px solid #2487c9;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #2487c9;
+    color: #fff;
+}
+
+
 /*-----------------------------------------------------------
 --------------------------FORMS------------------------------
 -------------------------------------------------------------*/
 
 .section-form {
-    margin-top: 50px;
+    margin-top: 8%;
 }
 
+.section-form span {
+    font-size: 75%;
+    color: #8b8b8b;
+}
+
+.start-form {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.section-sure a {
+    margin-left: 25%;
+}
+*:focus {outline:none};
 
 
+
+/*-----------------------------------------------------------
+--------------------------SURE-------------------------------
+-------------------------------------------------------------*/
 
 
 
